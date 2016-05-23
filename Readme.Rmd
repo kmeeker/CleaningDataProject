@@ -1,0 +1,28 @@
+---
+title: "Readme"
+author: "Kirsten Meeker"
+date: "May 16, 2016"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## run_analysis.R script for cleaning data
+Merges the training and the test sets to create one tidy data set containing the the mean and standard deviation for each subject and activity.
+
+#input files:
+UCI HAR Dataset\features.txt
+UCI HAR Dataset\activity_labels.txt
+
+UCI HAR Dataset\train\subject_train.txt
+UCI HAR Dataset\train\X_train.txt
+UCI HAR Dataset\train\y_train.txt
+
+UCI HAR Dataset\test\subject_test.txt
+UCI HAR Dataset\test\X_test.txt
+UCI HAR Dataset\test\y_test.txt
+
+#output file: 
+tidy_data.csv
